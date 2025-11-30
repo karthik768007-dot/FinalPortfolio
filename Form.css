@@ -1,0 +1,190 @@
+::placeholder {
+  font-family: Georgia, 'Times New Roman';
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.heading {
+  display: block;
+  width: 720px;           
+  max-width: 95%;
+  margin: 25px auto 15px; 
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-variant: small-caps;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-size: 20px;
+  position: relative;
+  color: #0b0b0b;
+}
+
+.heading::before,
+.heading::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  height: 2px;
+  background: #bfbfbf;
+  width: 40%;
+  transform: translateY(-50%);
+}
+
+.heading::before {
+  left: 0;
+}
+
+.heading::after {
+  right: 0;
+}
+
+.heading1 {
+  display: block;
+  width: 720px;           
+  max-width: 95%;
+  margin: 25px auto 15px; 
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-variant: small-caps;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-size: 20px;
+  position: relative;
+  color: #0b0b0b;
+}
+
+.heading1::before,
+.heading1::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  height: 2px;
+  background: #bfbfbf;
+  width: 27%;
+  transform: translateY(-50%);
+}
+
+.heading1::before {
+  left: 0;
+}
+
+.heading1::after {
+  right: 0;
+}
+
+hr {
+  width: 50%;
+}
+
+#studentinfo, #address, #courses {
+  text-align: center;
+  background-color: #8fd3f4;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+#FirstName, #LastName {
+  width: 207px;
+  height: 25px;
+}
+
+#MiddleName {
+  width: 207px;
+  height: 25px;
+  margin: 14px;
+}
+
+#email {
+  width: 673px;
+  height: 25px;
+  margin-bottom: 10px;
+}
+
+#DOB {
+  width: 331px;
+  height: 25px;
+  margin-right: 10px;
+  margin-bottom: 14px;
+}
+
+.gender {
+  width: 53px;
+  height: 15px;
+  font-family: Georgia, 'Times New Roman';
+}
+
+#streetaddress {
+  width: 673px;
+  height: 25px;
+  margin-top: 10px;
+  margin-bottom: 14px;
+}
+
+#city, #country {
+  width: 325px;
+  height: 25px;
+  margin-right: 10px;
+  margin-bottom: 14px;
+}
+
+#state, #pincode, #class {
+  width: 325px;
+  height: 25px;
+}
+
+#course {
+  width: 331px;
+  height: 29px;
+  margin-right: 10px;
+  margin-bottom: 14px;
+}
+
+#semesters {
+  width: 331px;
+  height: 29px;
+  margin-left: 2px;
+  margin-right: 10px;
+  margin-bottom: 14px;
+}
+
+#Division {
+  width: 331px;
+  height: 29px;
+  margin-left: 1px;
+  margin-right: 3px;
+}
+
+#info {
+  position: fixed;
+  bottom: 0%;
+}
+
+#submit {
+  width: 10%;
+  height: 30px;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman';
+  letter-spacing: 1px;
+  background-color: green;
+  color: #ffffff;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  margin: 15px;
+}
+
+#reset {
+  width: 10%;
+  height: 30px;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman';
+  letter-spacing: 1px;
+  background-color: red;
+  color: #ffffff;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  margin: 15px;
+}
